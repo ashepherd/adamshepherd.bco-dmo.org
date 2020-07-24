@@ -1,5 +1,4 @@
-theme: jekyll-theme-midnight
-
+title: Adam's Reading List
 collections:
   topics:
     output: true
