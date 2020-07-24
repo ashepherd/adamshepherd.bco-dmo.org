@@ -1,0 +1,12 @@
+---
+layout: default
+title: Table of Contents
+date: 2020-07-24
+---
+
+<table>
+  <tr><th>Topic</th></tr>
+{% for post in site.posts %}
+  <tr><td><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></td></tr>
+{% endfor %}
+</table>
