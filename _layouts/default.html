@@ -16,12 +16,6 @@
       </div>
     </div>
     <nav class="breadcrumb margin-bot-0" aria-label="breadcrumbs">
-      <ul class="container">
-        <li><a href="{{ site.url }}">Home</a></li>
-        <li><a href="https://blog.bco-dmo.org">Blog</a></li>
-      </ul>
-    </nav>
-    <div class="container margin-top-2-important margin-bot-1">
       {% capture topic_nav %}
       <nav class="level">
         {% for topic in site.topics %}
@@ -30,6 +24,9 @@
       </nav>
       {% endcapture %}
       {{ topic_nav }}
+    </nav>
+    <div class="container margin-top-2-important margin-bot-1">
+      
       <h1>{{ page.title }}</h1>
       {{ content }}
     </div>
