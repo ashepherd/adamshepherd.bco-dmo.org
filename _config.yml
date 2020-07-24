@@ -1,1 +1,5 @@
 theme: jekyll-theme-midnight
+
+collections:
+  topics:
+    output: true
