@@ -4,6 +4,9 @@ title: Semantics
 permalink: /semantics/
 ---
 
+## Tools
+- [ ] [Quepy[(https://github.com/machinalis/quepy) - Pyhont library for turning natural language questions in SPARQL queries
+
 ## Linked Data
 
 - [ ] [Linked Data Fragments](https://linkeddatafragments.org/specification/linked-data-fragments/)
