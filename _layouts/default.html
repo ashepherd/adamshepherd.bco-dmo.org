@@ -1,10 +1,50 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Bulma + BCO-DMO Core CSS -->
+    <link href="https://blog.bco-dmo.org/assets/css/bco-dmo.css" rel="stylesheet"/>
+    <!-- Blog CSS -->
+    <link href="https://blog.bco-dmo.org/assets/css/blog.css" rel="stylesheet"/>
+    <!-- FontAwesome -->
+    <link href="https://blog.bco-dmo.org/assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
     <title>{{ page.title }} | {{ site.title }}</title>
   </head>
   <body>
-  <h1>{{ page.title }}</h1>
-  {{ content }}
+    <div class="pre-navbar">
+      <div class="columns">
+        <div class="column is-two-thirds"><a href="https://www.bco-dmo.org" class="no-hover-effect">Biological & Chemical Oceanography Data Management Office</a></div>
+      </div>
+    </div>
+    <nav class="breadcrumb margin-bot-0" aria-label="breadcrumbs">
+      <ul class="container">
+        <li><a href="{{ site.url }}">Home</a></li>
+        <li><a href="https://blog.bco-dmo.org">Blog</a></li>
+      </ul>
+    </nav>
+    <div class="container margin-top-2-important margin-bot-1">
+      <nav class="level">
+        {% for topic in site.topics %}
+          <p class="level-item"><a href="{{ site.url }}{{ topic.url }}">{{ topic.title }}</a></p>
+        {% endfor %}
+      </nav>
+      <h1>{{ page.title }}</h1>
+      {{ content }}
+    </div>
+    <div class="has-text-right">
+      <a href="#top" class="button is-text"><i class="fa fa-arrow-up margin-right-1"></i> TOP</a>
+    </div>
+    <div class="footer-bar">
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- jQuery Version 1.11.1 -->
+    <script src="https://blog.bco-dmo.org/assets/vendor/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="https://blog.bco-dmo.org/assets/js/bco-dmo-components.js"></script>
+    <script src="https://blog.bco-dmo.org/assets/js/category-page.js"></script>
   </body>
 </html>
