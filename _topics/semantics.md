@@ -4,6 +4,8 @@ title: Semantics
 permalink: /semantics/
 ---
 
+- [ ] [AwesoemSemantic Web List](https://github.com/semantalytics/awesome-semantic-web)
+
 ## Tools
 - [ ] [Quepy](https://github.com/machinalis/quepy) - Pyhont library for turning natural language questions in SPARQL queries
 
