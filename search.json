@@ -6,7 +6,7 @@ layout: null
     {
       "title"    : "{{ topic.title | escape }}",
       "url"      : "{{ site.baseurl }}{{ topic.url }}",
-      "content"     : "{{ topic.content }}"
+      "content"     : "{{ topic.content | markdownify | strip_html }}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
