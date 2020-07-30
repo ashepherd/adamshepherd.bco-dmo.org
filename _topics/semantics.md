@@ -7,7 +7,16 @@ permalink: /semantics/
 - [ ] [AwesoemSemantic Web List](https://github.com/semantalytics/awesome-semantic-web)
 
 ## Tools
-- [ ] [Quepy](https://github.com/machinalis/quepy) - Pyhont library for turning natural language questions in SPARQL queries
+
+- [ ] [DeText](https://engineering.linkedin.com/blog/2020/open-sourcing-detext) - A deep NLP framework for intelligent text understanding
+
+### Python
+
+- [ ] [Quepy](https://github.com/machinalis/quepy) - Python library for turning natural language questions in SPARQL queries
+
+### Javascript
+
+- [ ] [N3.js](https://github.com/rdfjs/N3.js) - RDF in Javascript
 
 ## Linked Data
 
